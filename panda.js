@@ -51,3 +51,17 @@ for (const customButton of buyNowCustomBtn) {
             document.getElementById('submit-button').setAttribute('disabled',true);
         }
     })
+
+/* 
+    const imgagesChange = document.getElementsByTagName('img');
+    for(const img of imgagesChange){
+        img.addEventListener('mouseenter',function(event){
+            event.target.src = event.src.https://source.unsplash.com/user/erondu/1600x900
+        })
+    } */
+
+
+const doubleClicked = document.getElementById('double-clicked');
+doubleClicked.addEventListener('dblclick',function(event){
+    doubleClicked.style.backgroundColor = 'green';
+})
